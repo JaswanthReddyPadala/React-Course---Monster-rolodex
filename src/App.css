@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.backgrounding{
+  background-image: linear-gradient(to right,#00badb,#da12ae);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100vw;
+  height: auto;
+}
