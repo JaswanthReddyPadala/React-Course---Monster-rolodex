@@ -10,6 +10,8 @@ class App extends React.Component {
       monsters:[],
       searchField:''
     };
+
+    // this.handleChange = this.handleChange.bind(this); - if handleChange is not a arrow function we need to define like this to bind this scope of handleChange to constructor and make available for further use when needed.
   }
   
   componentDidMount(){ //componentDidMount is used when we fetch something and render content for the first time
@@ -19,6 +21,9 @@ class App extends React.Component {
     .then(users => this.setState({monsters:users}));
   }
 
+  handleChange = (e) => {
+    this.setState({searchField: e.target.value});
+  }
   render(){
     const  {monsters, searchField} = this.state;
     const filteredMonsters = monsters.filter(monster =>
@@ -27,9 +32,10 @@ class App extends React.Component {
  
     return (
     <div className="App backgrounding">
+      <h1>Monsters-rolodex</h1>
       <Search
       placeholder='search monsters' 
-      handleChange={e => this.setState({searchField: e.target.value})} />
+      handleChange={this.handleChange} />
       <CardList monsters={filteredMonsters} />
       
       {/* <CardList >{this.state.monsters.map(monster => (
