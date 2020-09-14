@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/static/css/main.f7583dd2.chunk.css",
+    "main.js": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/static/js/main.2790d82d.chunk.js",
+    "main.js.map": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/static/js/main.2790d82d.chunk.js.map",
+    "runtime-main.js": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/static/js/runtime-main.4ef1c620.js",
+    "runtime-main.js.map": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/static/js/runtime-main.4ef1c620.js.map",
+    "static/js/2.b4309f00.chunk.js": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/static/js/2.b4309f00.chunk.js",
+    "static/js/2.b4309f00.chunk.js.map": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/static/js/2.b4309f00.chunk.js.map",
+    "index.html": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/index.html",
+    "precache-manifest.a9b88ccb6bdcceba6dc4e5d737c602a4.js": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/precache-manifest.a9b88ccb6bdcceba6dc4e5d737c602a4.js",
+    "service-worker.js": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/service-worker.js",
+    "static/css/main.f7583dd2.chunk.css.map": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/static/css/main.f7583dd2.chunk.css.map",
+    "static/js/2.b4309f00.chunk.js.LICENSE.txt": "/https.//JaswanthReddyPadala.github.io/React-Course---Monster-rolodex/static/js/2.b4309f00.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ef1c620.js",
+    "static/js/2.b4309f00.chunk.js",
+    "static/css/main.f7583dd2.chunk.css",
+    "static/js/main.2790d82d.chunk.js"
+  ]
+}
